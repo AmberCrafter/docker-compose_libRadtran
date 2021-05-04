@@ -1,0 +1,11 @@
+version: '3'
+services: 
+  os:
+    container_name: fortran_libradtran
+    restart: always
+    build: ./ubuntu20
+    tty: true
+    volumes:
+      - ./ubuntu20/projects:/root/projects
+    ports: 
+      - "40001:22"

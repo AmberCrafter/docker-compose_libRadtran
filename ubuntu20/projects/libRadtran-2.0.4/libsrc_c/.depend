@@ -1,0 +1,362 @@
+allocnd.o: allocnd.c ../libsrc_c/allocnd.h
+ascii.o: ascii.c ../libsrc_c/ascii.h
+bandec.o: bandec.c ../libsrc_c/bandec.h
+cdisort.o: cdisort.c ../libsrc_c/cdisort.h ../libsrc_c/common_math.h \
+  ../libsrc_c/ocean.h ../libsrc_f/f77-uscore.h ../libsrc_c/ambralsfor.h \
+  ../libsrc_c/locate.h
+cnv.o: cnv.c ../libsrc_c/numeric.h ../libsrc_c/equation.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/ascii.h
+common_math.o: common_math.c ../libsrc_c/common_math.h \
+  ../libsrc_c/errors.h
+triangle_surface.o: triangle_surface.c /opt/local/include/netcdf.h \
+  ../libsrc_c/allocnd.h ../libsrc_c/common_math.h \
+  ../libsrc_c/triangle_surface.h ../libsrc_c/errors.h \
+  ../libsrc_c/tribox3.h
+c_tzs.o: c_tzs.c ../libsrc_c/ascii.h ../libsrc_c/cdisort.h \
+  ../libsrc_c/common_math.h ../libsrc_c/ocean.h ../libsrc_f/f77-uscore.h \
+  ../libsrc_c/ambralsfor.h ../libsrc_c/c_tzs.h ../libsrc_c/locate.h \
+  /opt/local/include/gsl/gsl_sf_expint.h \
+  /opt/local/include/gsl/gsl_sf_result.h
+equation.o: equation.c ../libsrc_c/errors.h ../libsrc_c/numeric.h \
+  ../libsrc_c/equation.h ../libsrc_c/function.h ../libsrc_c/spl.h \
+  ../libsrc_c/locate.h ../libsrc_c/linear.h ../libsrc_c/cnv.h \
+  ../libsrc_c/regress.h ../libsrc_c/integrat.h ../libsrc_c/table.h \
+  ../libsrc_c/ascii.h
+errors.o: errors.c ../libsrc_c/errors.h
+fortran_and_c.o: fortran_and_c.c ../libsrc_c/fortran_and_c.h \
+  ../libsrc_c/ascii.h
+function.o: function.c ../libsrc_c/numeric.h ../libsrc_c/equation.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/ascii.h
+integrat.o: integrat.c ../libsrc_c/numeric.h ../libsrc_c/equation.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/ascii.h
+linear.o: linear.c ../libsrc_c/numeric.h ../libsrc_c/equation.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/ascii.h
+locate.o: locate.c
+miecalc.o: miecalc.c ../libsrc_f/f77-uscore.h ../libsrc_c/fortran_and_c.h \
+  ../libsrc_c/ascii.h ../libsrc_c/numeric.h ../libsrc_c/equation.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/miecalc.h \
+  /opt/local/include/netcdf.h
+nca.o: nca.c ../libsrc_c/ascii.h ../libsrc_c/cdisort.h \
+  ../libsrc_c/common_math.h ../libsrc_c/ocean.h ../libsrc_f/f77-uscore.h \
+  ../libsrc_c/ambralsfor.h ../libsrc_c/errors.h ../libsrc_c/mystic.h \
+  ../libsrc_c/phasetable.h ../libsrc_c/triangle_surface.h \
+  ../libsrc_c/nca.h ../libsrc_f/solver.h
+netCDF_functions.o: netCDF_functions.c /opt/local/include/netcdf.h \
+  ../libsrc_c/netCDF_functions.h
+phasetable.o: phasetable.c ../libsrc_c/phasetable.h ../libsrc_c/numeric.h \
+  ../libsrc_c/equation.h ../libsrc_c/function.h ../libsrc_c/spl.h \
+  ../libsrc_c/locate.h ../libsrc_c/linear.h ../libsrc_c/cnv.h \
+  ../libsrc_c/regress.h ../libsrc_c/integrat.h ../libsrc_c/table.h \
+  ../libsrc_c/ascii.h ../libsrc_c/miecalc.h ../libsrc_c/mystic.h \
+  ../libsrc_c/cdisort.h ../libsrc_c/common_math.h ../libsrc_c/ocean.h \
+  ../libsrc_f/f77-uscore.h ../libsrc_c/ambralsfor.h \
+  ../libsrc_c/triangle_surface.h ../libsrc_c/errors.h
+rayleigh.o: rayleigh.c
+raytracing.o: raytracing.c ../libsrc_c/./ascii.h \
+  ../libsrc_c/common_math.h ../libsrc_f/f77-uscore.h \
+  ../libsrc_c/fortran_and_c.h ../libsrc_c/ascii.h ../libsrc_c/miecalc.h \
+  ../libsrc_c/mystic.h ../libsrc_c/phasetable.h ../libsrc_c/cdisort.h \
+  ../libsrc_c/ocean.h ../libsrc_c/ambralsfor.h \
+  ../libsrc_c/triangle_surface.h ../libsrc_c/uvspecrandom.h \
+  /opt/local/include/gsl/gsl_rng.h /opt/local/include/gsl/gsl_types.h \
+  /opt/local/include/gsl/gsl_errno.h /opt/local/include/gsl/gsl_inline.h
+regress.o: regress.c ../libsrc_c/numeric.h ../libsrc_c/equation.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/ascii.h
+rodents.o: rodents.c ../libsrc_f/solver.h ../libsrc_f/f77-uscore.h \
+  ../libsrc_c/rodents.h ../libsrc_c/ascii.h ../libsrc_c/bandec.h
+snow.o: snow.c ../libsrc_c/ascii.h ../libsrc_c/numeric.h \
+  ../libsrc_c/equation.h ../libsrc_c/function.h ../libsrc_c/spl.h \
+  ../libsrc_c/locate.h ../libsrc_c/linear.h ../libsrc_c/cnv.h \
+  ../libsrc_c/regress.h ../libsrc_c/integrat.h ../libsrc_c/table.h \
+  ../libsrc_f/f77-uscore.h ../libsrc_f/solver.h
+sofi.o: sofi.c ../libsrc_c/ascii.h ../libsrc_c/common_math.h \
+  ../libsrc_c/sofi.h ../libsrc_c/mystic.h ../libsrc_c/phasetable.h \
+  ../libsrc_c/cdisort.h ../libsrc_c/ocean.h ../libsrc_f/f77-uscore.h \
+  ../libsrc_c/ambralsfor.h ../libsrc_c/triangle_surface.h \
+  ../libsrc_c/uvspecrandom.h /opt/local/include/gsl/gsl_rng.h \
+  /opt/local/include/gsl/gsl_types.h /opt/local/include/gsl/gsl_errno.h \
+  /opt/local/include/gsl/gsl_inline.h
+specrend_uvspec.o: specrend_uvspec.c ../libsrc_c/ascii.h \
+  ../libsrc_c/linear.h ../libsrc_c/numeric.h ../libsrc_c/equation.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/cnv.h ../libsrc_c/regress.h ../libsrc_c/integrat.h \
+  ../libsrc_c/table.h ../libsrc_c/specrend_uvspec.h
+spl.o: spl.c ../libsrc_c/numeric.h ../libsrc_c/equation.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/ascii.h
+sslidar.o: sslidar.c ../libsrc_c/sslidar.h ../libsrc_c/locate.h
+sun.o: sun.c ../libsrc_c/sun.h
+sunpos.o: sunpos.c ../libsrc_c/sunpos.h
+table.o: table.c ../libsrc_c/table.h ../libsrc_c/numeric.h \
+  ../libsrc_c/equation.h ../libsrc_c/function.h ../libsrc_c/spl.h \
+  ../libsrc_c/locate.h ../libsrc_c/linear.h ../libsrc_c/cnv.h \
+  ../libsrc_c/regress.h ../libsrc_c/integrat.h ../libsrc_c/ascii.h
+tribox3.o: tribox3.c ../libsrc_c/common_math.h
+twomaxrnd.o: twomaxrnd.c ../libsrc_c/equation.h ../libsrc_c/numeric.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/ascii.h \
+  ../libsrc_c/twostrebe.h ../libsrc_c/twomaxrnd.h ../libsrc_f/solver.h \
+  ../libsrc_f/f77-uscore.h ../libsrc_c/bandec.h
+twostrebe.o: twostrebe.c ../libsrc_c/equation.h ../libsrc_c/numeric.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/ascii.h \
+  ../libsrc_c/twostrebe.h ../libsrc_f/solver.h ../libsrc_f/f77-uscore.h
+dynamic_twostream.o: dynamic_twostream.c ../libsrc_c/equation.h \
+  ../libsrc_c/numeric.h ../libsrc_c/function.h ../libsrc_c/spl.h \
+  ../libsrc_c/locate.h ../libsrc_c/linear.h ../libsrc_c/cnv.h \
+  ../libsrc_c/regress.h ../libsrc_c/integrat.h ../libsrc_c/table.h \
+  ../libsrc_c/ascii.h ../libsrc_c/twostrebe.h \
+  ../libsrc_c/dynamic_twostream.h ../libsrc_f/solver.h \
+  ../libsrc_f/f77-uscore.h
+dynamic_tenstream.o: dynamic_tenstream.c ../libsrc_c/equation.h \
+  ../libsrc_c/numeric.h ../libsrc_c/function.h ../libsrc_c/spl.h \
+  ../libsrc_c/locate.h ../libsrc_c/linear.h ../libsrc_c/cnv.h \
+  ../libsrc_c/regress.h ../libsrc_c/integrat.h ../libsrc_c/table.h \
+  ../libsrc_c/ascii.h ../libsrc_c/twostrebe.h \
+  ../libsrc_c/dynamic_tenstream.h ../libsrc_c/mystic.h \
+  ../libsrc_c/phasetable.h ../libsrc_c/cdisort.h \
+  ../libsrc_c/common_math.h ../libsrc_c/ocean.h ../libsrc_f/f77-uscore.h \
+  ../libsrc_c/ambralsfor.h ../libsrc_c/triangle_surface.h \
+  ../libsrc_f/solver.h
+uvspecrandom.o: uvspecrandom.c ../libsrc_c/errors.h \
+  ../libsrc_c/uvspecrandom.h /opt/local/include/gsl/gsl_rng.h \
+  /opt/local/include/gsl/gsl_types.h /opt/local/include/gsl/gsl_errno.h \
+  /opt/local/include/gsl/gsl_inline.h /opt/local/include/gsl/gsl_sf.h \
+  /opt/local/include/gsl/gsl_sf_result.h \
+  /opt/local/include/gsl/gsl_sf_airy.h /opt/local/include/gsl/gsl_mode.h \
+  /opt/local/include/gsl/gsl_sf_bessel.h \
+  /opt/local/include/gsl/gsl_precision.h \
+  /opt/local/include/gsl/gsl_sf_clausen.h \
+  /opt/local/include/gsl/gsl_sf_coupling.h \
+  /opt/local/include/gsl/gsl_sf_coulomb.h \
+  /opt/local/include/gsl/gsl_sf_dawson.h \
+  /opt/local/include/gsl/gsl_sf_debye.h \
+  /opt/local/include/gsl/gsl_sf_dilog.h \
+  /opt/local/include/gsl/gsl_sf_elementary.h \
+  /opt/local/include/gsl/gsl_sf_ellint.h \
+  /opt/local/include/gsl/gsl_sf_elljac.h \
+  /opt/local/include/gsl/gsl_sf_erf.h \
+  /opt/local/include/gsl/gsl_sf_exp.h \
+  /opt/local/include/gsl/gsl_sf_expint.h \
+  /opt/local/include/gsl/gsl_sf_fermi_dirac.h \
+  /opt/local/include/gsl/gsl_sf_gamma.h \
+  /opt/local/include/gsl/gsl_sf_gegenbauer.h \
+  /opt/local/include/gsl/gsl_sf_hermite.h \
+  /opt/local/include/gsl/gsl_sf_hyperg.h \
+  /opt/local/include/gsl/gsl_sf_laguerre.h \
+  /opt/local/include/gsl/gsl_sf_lambert.h \
+  /opt/local/include/gsl/gsl_sf_legendre.h \
+  /opt/local/include/gsl/gsl_sf_log.h \
+  /opt/local/include/gsl/gsl_sf_mathieu.h \
+  /opt/local/include/gsl/gsl_eigen.h /opt/local/include/gsl/gsl_vector.h \
+  /opt/local/include/gsl/gsl_vector_complex_long_double.h \
+  /opt/local/include/gsl/gsl_complex.h \
+  /opt/local/include/gsl/gsl_check_range.h \
+  /opt/local/include/gsl/gsl_vector_long_double.h \
+  /opt/local/include/gsl/gsl_block_long_double.h \
+  /opt/local/include/gsl/gsl_vector_complex.h \
+  /opt/local/include/gsl/gsl_block_complex_long_double.h \
+  /opt/local/include/gsl/gsl_vector_complex_double.h \
+  /opt/local/include/gsl/gsl_vector_double.h \
+  /opt/local/include/gsl/gsl_block_double.h \
+  /opt/local/include/gsl/gsl_block_complex_double.h \
+  /opt/local/include/gsl/gsl_vector_complex_float.h \
+  /opt/local/include/gsl/gsl_vector_float.h \
+  /opt/local/include/gsl/gsl_block_float.h \
+  /opt/local/include/gsl/gsl_block_complex_float.h \
+  /opt/local/include/gsl/gsl_vector_ulong.h \
+  /opt/local/include/gsl/gsl_block_ulong.h \
+  /opt/local/include/gsl/gsl_vector_long.h \
+  /opt/local/include/gsl/gsl_block_long.h \
+  /opt/local/include/gsl/gsl_vector_uint.h \
+  /opt/local/include/gsl/gsl_block_uint.h \
+  /opt/local/include/gsl/gsl_vector_int.h \
+  /opt/local/include/gsl/gsl_block_int.h \
+  /opt/local/include/gsl/gsl_vector_ushort.h \
+  /opt/local/include/gsl/gsl_block_ushort.h \
+  /opt/local/include/gsl/gsl_vector_short.h \
+  /opt/local/include/gsl/gsl_block_short.h \
+  /opt/local/include/gsl/gsl_vector_uchar.h \
+  /opt/local/include/gsl/gsl_block_uchar.h \
+  /opt/local/include/gsl/gsl_vector_char.h \
+  /opt/local/include/gsl/gsl_block_char.h \
+  /opt/local/include/gsl/gsl_matrix.h \
+  /opt/local/include/gsl/gsl_matrix_complex_long_double.h \
+  /opt/local/include/gsl/gsl_blas_types.h \
+  /opt/local/include/gsl/gsl_cblas.h \
+  /opt/local/include/gsl/gsl_matrix_complex_double.h \
+  /opt/local/include/gsl/gsl_matrix_complex_float.h \
+  /opt/local/include/gsl/gsl_matrix_long_double.h \
+  /opt/local/include/gsl/gsl_matrix_double.h \
+  /opt/local/include/gsl/gsl_matrix_float.h \
+  /opt/local/include/gsl/gsl_matrix_ulong.h \
+  /opt/local/include/gsl/gsl_matrix_long.h \
+  /opt/local/include/gsl/gsl_matrix_uint.h \
+  /opt/local/include/gsl/gsl_matrix_int.h \
+  /opt/local/include/gsl/gsl_matrix_ushort.h \
+  /opt/local/include/gsl/gsl_matrix_short.h \
+  /opt/local/include/gsl/gsl_matrix_uchar.h \
+  /opt/local/include/gsl/gsl_matrix_char.h \
+  /opt/local/include/gsl/gsl_sf_pow_int.h \
+  /opt/local/include/gsl/gsl_sf_psi.h \
+  /opt/local/include/gsl/gsl_sf_sincos_pi.h \
+  /opt/local/include/gsl/gsl_sf_synchrotron.h \
+  /opt/local/include/gsl/gsl_sf_transport.h \
+  /opt/local/include/gsl/gsl_sf_trig.h \
+  /opt/local/include/gsl/gsl_sf_zeta.h \
+  /opt/local/include/gsl/gsl_randist.h
+wavelength.o: wavelength.c ../libsrc_c/numeric.h ../libsrc_c/equation.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/ascii.h \
+  ../libsrc_c/wavelength.h
+wcloud3d.o: wcloud3d.c ../libsrc_c/ascii.h ../libsrc_c/errors.h \
+  ../libsrc_c/wcloud3d.h ../libsrc_c/mystic.h ../libsrc_c/phasetable.h \
+  ../libsrc_c/cdisort.h ../libsrc_c/common_math.h ../libsrc_c/ocean.h \
+  ../libsrc_f/f77-uscore.h ../libsrc_c/ambralsfor.h \
+  ../libsrc_c/triangle_surface.h ../libsrc_c/allocnd.h \
+  /opt/local/include/netcdf.h
+mystic.o: mystic.c ../libsrc_c/uvspecrandom.h \
+  /opt/local/include/gsl/gsl_rng.h /opt/local/include/gsl/gsl_types.h \
+  /opt/local/include/gsl/gsl_errno.h /opt/local/include/gsl/gsl_inline.h \
+  ../libsrc_c/wcloud3d.h ../libsrc_c/mystic.h ../libsrc_c/phasetable.h \
+  ../libsrc_c/cdisort.h ../libsrc_c/common_math.h ../libsrc_c/ocean.h \
+  ../libsrc_f/f77-uscore.h ../libsrc_c/ambralsfor.h \
+  ../libsrc_c/triangle_surface.h ../libsrc_c/alis.h ../libsrc_c/yang56.h \
+  ../libsrc_c/sofi.h ../libsrc_c/errors.h ../libsrc_c/ascii.h \
+  ../libsrc_c/miecalc.h ../libsrc_c/numeric.h ../libsrc_c/equation.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_f/solver.h \
+  ../libsrc_c/rayleigh.h ../libsrc_c/allocnd.h \
+  /opt/local/include/gsl/gsl_sf.h /opt/local/include/gsl/gsl_sf_result.h \
+  /opt/local/include/gsl/gsl_sf_airy.h /opt/local/include/gsl/gsl_mode.h \
+  /opt/local/include/gsl/gsl_sf_bessel.h \
+  /opt/local/include/gsl/gsl_precision.h \
+  /opt/local/include/gsl/gsl_sf_clausen.h \
+  /opt/local/include/gsl/gsl_sf_coupling.h \
+  /opt/local/include/gsl/gsl_sf_coulomb.h \
+  /opt/local/include/gsl/gsl_sf_dawson.h \
+  /opt/local/include/gsl/gsl_sf_debye.h \
+  /opt/local/include/gsl/gsl_sf_dilog.h \
+  /opt/local/include/gsl/gsl_sf_elementary.h \
+  /opt/local/include/gsl/gsl_sf_ellint.h \
+  /opt/local/include/gsl/gsl_sf_elljac.h \
+  /opt/local/include/gsl/gsl_sf_erf.h \
+  /opt/local/include/gsl/gsl_sf_exp.h \
+  /opt/local/include/gsl/gsl_sf_expint.h \
+  /opt/local/include/gsl/gsl_sf_fermi_dirac.h \
+  /opt/local/include/gsl/gsl_sf_gamma.h \
+  /opt/local/include/gsl/gsl_sf_gegenbauer.h \
+  /opt/local/include/gsl/gsl_sf_hermite.h \
+  /opt/local/include/gsl/gsl_sf_hyperg.h \
+  /opt/local/include/gsl/gsl_sf_laguerre.h \
+  /opt/local/include/gsl/gsl_sf_lambert.h \
+  /opt/local/include/gsl/gsl_sf_legendre.h \
+  /opt/local/include/gsl/gsl_sf_log.h \
+  /opt/local/include/gsl/gsl_sf_mathieu.h \
+  /opt/local/include/gsl/gsl_eigen.h /opt/local/include/gsl/gsl_vector.h \
+  /opt/local/include/gsl/gsl_vector_complex_long_double.h \
+  /opt/local/include/gsl/gsl_complex.h \
+  /opt/local/include/gsl/gsl_check_range.h \
+  /opt/local/include/gsl/gsl_vector_long_double.h \
+  /opt/local/include/gsl/gsl_block_long_double.h \
+  /opt/local/include/gsl/gsl_vector_complex.h \
+  /opt/local/include/gsl/gsl_block_complex_long_double.h \
+  /opt/local/include/gsl/gsl_vector_complex_double.h \
+  /opt/local/include/gsl/gsl_vector_double.h \
+  /opt/local/include/gsl/gsl_block_double.h \
+  /opt/local/include/gsl/gsl_block_complex_double.h \
+  /opt/local/include/gsl/gsl_vector_complex_float.h \
+  /opt/local/include/gsl/gsl_vector_float.h \
+  /opt/local/include/gsl/gsl_block_float.h \
+  /opt/local/include/gsl/gsl_block_complex_float.h \
+  /opt/local/include/gsl/gsl_vector_ulong.h \
+  /opt/local/include/gsl/gsl_block_ulong.h \
+  /opt/local/include/gsl/gsl_vector_long.h \
+  /opt/local/include/gsl/gsl_block_long.h \
+  /opt/local/include/gsl/gsl_vector_uint.h \
+  /opt/local/include/gsl/gsl_block_uint.h \
+  /opt/local/include/gsl/gsl_vector_int.h \
+  /opt/local/include/gsl/gsl_block_int.h \
+  /opt/local/include/gsl/gsl_vector_ushort.h \
+  /opt/local/include/gsl/gsl_block_ushort.h \
+  /opt/local/include/gsl/gsl_vector_short.h \
+  /opt/local/include/gsl/gsl_block_short.h \
+  /opt/local/include/gsl/gsl_vector_uchar.h \
+  /opt/local/include/gsl/gsl_block_uchar.h \
+  /opt/local/include/gsl/gsl_vector_char.h \
+  /opt/local/include/gsl/gsl_block_char.h \
+  /opt/local/include/gsl/gsl_matrix.h \
+  /opt/local/include/gsl/gsl_matrix_complex_long_double.h \
+  /opt/local/include/gsl/gsl_blas_types.h \
+  /opt/local/include/gsl/gsl_cblas.h \
+  /opt/local/include/gsl/gsl_matrix_complex_double.h \
+  /opt/local/include/gsl/gsl_matrix_complex_float.h \
+  /opt/local/include/gsl/gsl_matrix_long_double.h \
+  /opt/local/include/gsl/gsl_matrix_double.h \
+  /opt/local/include/gsl/gsl_matrix_float.h \
+  /opt/local/include/gsl/gsl_matrix_ulong.h \
+  /opt/local/include/gsl/gsl_matrix_long.h \
+  /opt/local/include/gsl/gsl_matrix_uint.h \
+  /opt/local/include/gsl/gsl_matrix_int.h \
+  /opt/local/include/gsl/gsl_matrix_ushort.h \
+  /opt/local/include/gsl/gsl_matrix_short.h \
+  /opt/local/include/gsl/gsl_matrix_uchar.h \
+  /opt/local/include/gsl/gsl_matrix_char.h \
+  /opt/local/include/gsl/gsl_sf_pow_int.h \
+  /opt/local/include/gsl/gsl_sf_psi.h \
+  /opt/local/include/gsl/gsl_sf_sincos_pi.h \
+  /opt/local/include/gsl/gsl_sf_synchrotron.h \
+  /opt/local/include/gsl/gsl_sf_transport.h \
+  /opt/local/include/gsl/gsl_sf_trig.h \
+  /opt/local/include/gsl/gsl_sf_zeta.h /opt/local/include/netcdf.h \
+  ../libsrc_c/vroom.h ../libsrc_c/raytracing.h ../libsrc_c/nca.h
+alis.o: alis.c ../libsrc_c/alis.h ../libsrc_c/mystic.h \
+  ../libsrc_c/phasetable.h ../libsrc_c/cdisort.h \
+  ../libsrc_c/common_math.h ../libsrc_c/ocean.h ../libsrc_f/f77-uscore.h \
+  ../libsrc_c/ambralsfor.h ../libsrc_c/triangle_surface.h \
+  ../libsrc_c/ascii.h
+sos.o: sos.c ../libsrc_c/ascii.h ../libsrc_f/f77-uscore.h \
+  ../libsrc_c/fortran_and_c.h
+yang56.o: yang56.c ../libsrc_c/yang56.h ../libsrc_c/ascii.h
+vroom.o: vroom.c ../libsrc_c/common_math.h ../libsrc_c/errors.h \
+  ../libsrc_c/mystic.h ../libsrc_c/phasetable.h ../libsrc_c/cdisort.h \
+  ../libsrc_c/ocean.h ../libsrc_f/f77-uscore.h ../libsrc_c/ambralsfor.h \
+  ../libsrc_c/triangle_surface.h ../libsrc_c/uvspecrandom.h \
+  /opt/local/include/gsl/gsl_rng.h /opt/local/include/gsl/gsl_types.h \
+  /opt/local/include/gsl/gsl_errno.h /opt/local/include/gsl/gsl_inline.h \
+  ../libsrc_c/vroom.h
+ambralsfor.o: ambralsfor.c ../libsrc_c/ambralsfor.h \
+  ../libsrc_f/f77-uscore.h
+ocean.o: ocean.c ../libsrc_c/ocean.h ../libsrc_f/f77-uscore.h \
+  ../libsrc_c/uvspecrandom.h /opt/local/include/gsl/gsl_rng.h \
+  /opt/local/include/gsl/gsl_types.h /opt/local/include/gsl/gsl_errno.h \
+  /opt/local/include/gsl/gsl_inline.h ../libsrc_c/fortran_and_c.h \
+  ../libsrc_c/ascii.h
+Corefinder.o: Corefinder.c ../libsrc_c/Corefinder.h \
+  ../libsrc_c/LinArray.h ../libsrc_c/Stack.h
+Stack.o: Stack.c ../libsrc_c/Stack.h
+LinArray.o: LinArray.c ../libsrc_c/LinArray.h
+twomaxrnd3C.o: twomaxrnd3C.c ../libsrc_c/equation.h ../libsrc_c/numeric.h \
+  ../libsrc_c/function.h ../libsrc_c/spl.h ../libsrc_c/locate.h \
+  ../libsrc_c/linear.h ../libsrc_c/cnv.h ../libsrc_c/regress.h \
+  ../libsrc_c/integrat.h ../libsrc_c/table.h ../libsrc_c/ascii.h \
+  ../libsrc_c/twostrebe.h ../libsrc_c/twomaxrnd.h \
+  ../libsrc_c/twomaxrnd3C.h ../libsrc_f/solver.h \
+  ../libsrc_f/f77-uscore.h ../libsrc_c/bandec.h
